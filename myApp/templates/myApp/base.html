@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form>
+    <label>CREATE TABLE - Product, PC, Laptop and Printer</label>
+    <button type="button" onclick="location.href = '{% url 'create' %}'">Click</button>
+</form>
+
+<form>
+    <label>Insert a record for each table with the value presented in the assignment</label>
+    <button type="button" onclick="location.href='{% url 'insert' %}'">Click</button>
+</form>
+
+<form action="{% url 'inserteach' %}", method="get">
+    <label for="text1">insert for product table</label>
+    <select name="thing">
+        <option value="">Select a product type</option>
+        <option value="Product">Product</option>
+        <option value="PC">PC</option>
+        <option value="Laptop">Laptop</option>
+        <option value="Printer">Printer</option>
+    </select>
+    <br>
+    <input type="textarea" id="text1" name="text1" style="width: 300px; height: 200px">
+    <input type="submit" value="Insert">
+</form>
+
+<label for="q1">Find the average hard disk size of PCs.</label>
+<button type="button" id="q1" onclick="location.href='{% url 'result1' %}'">Click</button>
+<br>
+
+<label for="q2">Find the average speed of laptop for each maker.</label>
+<button type="button" id="q2" onclick="location.href='{% url 'result2' %}'">Click</button>
+<br>
+
+<label for="q3">Find the price of laptop, which is the only laptop model of the maker.</label>
+<button type="button" id="q3" onclick="location.href='{% url 'result3' %}'">Click</button>
+<br>
+
+<label for="q4">Find the model and price of the printer of the highest price of each maker</label>
+<button type="button" id="q4" onclick="location.href='{% url 'result4' %}'">Click</button>
+<br>
+
+<a href="{% url 'display' %}"><strong>DISPLAY TABLES</strong></a>
+<br>
+
+</body>
+
+</html>

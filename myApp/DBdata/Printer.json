@@ -1,0 +1,46 @@
+{
+  "Printer" : [
+    {
+      "model" : "3001",
+      "color" : "true",
+      "type" : "ink-jet",
+      "price" : "99"
+    },
+    {
+      "model" : "3002",
+      "color" : "false",
+      "type" : "laser",
+      "price" : "239"
+    },
+    {
+      "model" : "3003",
+      "color" : "true",
+      "type" : "laser",
+      "price" : "899"
+    },
+    {
+      "model" : "3004",
+      "color" : "true",
+      "type" : "ink-jet",
+      "price" : "120"
+    },
+    {
+      "model" : "3005",
+      "color" : "false",
+      "type" : "laser",
+      "price" : "120"
+    },
+    {
+      "model" : "3006",
+      "color" : "true",
+      "type" : "ink-jet",
+      "price" : "100"
+    },
+    {
+      "model" : "3007",
+      "color" : "true",
+      "type" : "laser",
+      "price" : "200"
+    }
+  ]
+}

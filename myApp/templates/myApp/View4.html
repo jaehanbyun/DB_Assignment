@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query 4</title>
+</head>
+<body>
+<h2>Query Result 4</h2>
+<table>
+    <thead>
+        <tr>
+        <th>maker</th>
+        <th>model</th>
+        <th>price</th>
+    </tr>
+    </thead>
+{% for i in output %}
+    <tr>
+        <td>{{ i.maker }}</td>
+        <td>{{ i.model }}</td>
+        <td>{{ i.price }}</td>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>

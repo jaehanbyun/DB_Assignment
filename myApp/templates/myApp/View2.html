@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query 2</title>
+</head>
+<body>
+<h2>Query Result2</h2>
+<table>
+    <thead>
+        <tr>
+        <th>maker</th>
+        <th>AvgSpeed</th>
+    </tr>
+    </thead>
+{% for i in output %}
+    <tr>
+        <td>{{ i.maker }}</td>
+        <td>{{ i.AvgSpeed }}</td>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>

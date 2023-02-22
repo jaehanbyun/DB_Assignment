@@ -1,0 +1,154 @@
+{
+  "Product" : [
+    {
+      "maker" : "A",
+      "model" : "1001",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "A",
+      "model" : "1002",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "A",
+      "model" : "1003",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "A",
+      "model" : "2004",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "A",
+      "model" : "2005",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "A",
+      "model" : "2006",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "B",
+      "model" : "1004",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "B",
+      "model" : "1005",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "B",
+      "model" : "1006",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "B",
+      "model" : "2007",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "C",
+      "model" : "1007",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "D",
+      "model" : "1008",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "D",
+      "model" : "1009",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "D",
+      "model" : "1010",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "D",
+      "model" : "3004",
+      "type"  : "printer"
+    },
+    {
+      "maker" : "D",
+      "model" : "3005",
+      "type"  : "printer"
+    },
+    {
+      "maker" : "E",
+      "model" : "1011",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "E",
+      "model" : "1012",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "E",
+      "model" : "1013",
+      "type"  : "pc"
+    },
+    {
+      "maker" : "E",
+      "model" : "2001",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "E",
+      "model" : "2002",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "E",
+      "model" : "2003",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "E",
+      "model" : "3001",
+      "type"  : "printer"
+    },
+    {
+      "maker" : "E",
+      "model" : "3002",
+      "type"  : "printer"
+    },
+    {
+      "maker" : "E",
+      "model" : "3003",
+      "type"  : "printer"
+    },
+    {
+      "maker" : "F",
+      "model" : "2008",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "F",
+      "model" : "2009",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "G",
+      "model" : "2010",
+      "type"  : "laptop"
+    },
+    {
+      "maker" : "H",
+      "model" : "3006",
+      "type"  : "printer"
+    },
+    {
+      "maker" : "H",
+      "model" : "3007",
+      "type"  : "printer"
+    }
+  ]
+}
