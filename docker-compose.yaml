@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  db:
+    image: postgres
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=categorydb
+      - POSTGRES_USER=jaehan
+      - POSTGRES_PASSWORD=password
+  app:
+    image: db_app
+    environment:
+      - POSTGRES_DB=categorydb
+      - POSTGRES_USER=jaehan
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_HOST=db
+    depends_on:
+      - db
+  web:
+    image: db_web
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+
+volumes:
+  db_volume:
+    name: db_volume
